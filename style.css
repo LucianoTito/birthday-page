@@ -246,7 +246,7 @@ body {
       font-size: 1em;
       font-weight: bolder;
       color: #74706f;
-      margin-top: .5em;
+      margin-top: .1em;
     }
 .asist__option{
   color: #a9a6a2;
@@ -254,11 +254,11 @@ body {
 }
 .asist__icon-container{
   position: relative;
-  width: 90px;
+  width: 96px;
 }
 .asist__icon-mask{
   position: absolute;
-  height: 88px;
+  height: 96px;
   bottom: .1em;
   left: -160%;
 }
