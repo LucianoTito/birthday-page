@@ -246,7 +246,7 @@ body {
       font-size: 1em;
       font-weight: bolder;
       color: #74706f;
-      margin-top: .1em;
+      margin-top: 1em;
     }
 .asist__option{
   color: #a9a6a2;
@@ -260,7 +260,7 @@ body {
   position: absolute;
   height: 96px;
   bottom: .1em;
-  left: -160%;
+  left: -145%;
 }
   input[type="submit"] {   
     color: white;
