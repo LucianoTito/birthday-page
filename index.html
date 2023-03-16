@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favico2.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+    <title>Mí Cumple</title>
+    
+</head>
+<body>
+    
+    <header>
+        <!-- MENÚ ENCABEZADO -->
+        <nav>
+            <ul>
+                <li>hola</li>
+            </ul>
+        </nav>
+     
+
+    </header>
+    
+
+    <!-- SECTION HOME -->
+    <section class="home">
+        
+
+       
+<div class="container__img">
+   
+    <img class="img__home" src="./src/globos_edad.png" alt="">
+    <div class="bg_heart"></div>
+</div>
+
+
+<h2 class="birthday__title">Birthday Party</h2>
+<h3 class="birthday__subtitle">in honor of</h3>
+<h1 class="birthday__name">CARLA RAMIREZ </h1>
+</section>
+
+<!-- SECTION PLACE, DAY AND TIME -->
+
+<section class="data__container">
+    <h3 class="data__date"> FRIDAY, MAR 24TH </h3>
+    <h3 class="data__time">AT 21:30</h3>
+    <h3 class="data__location">Location</h3>
+    <h3 class="data__direction">20 de Febrero 1244</h3>
+    <h3 class="data__arrive">How to arrive:</h3> <button class="button"><a target="blank" href="https://goo.gl/maps/mbvD1mmaVmFjDqv28">CLICK HERE</a></button>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.6225773105343!2d-65.41417624976349!3d-24.774126513296995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3c69758156b%3A0x37bf8f5196e969f9!2s20%20de%20Febrero%201244%2C%20Salta!5e0!3m2!1ses!2sar!4v1678781349815!5m2!1ses!2sar"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<script src="./script.js"></script>
+</body>
+</html>
+
+
+<!-- /* SECTION MESSAGES */ -->
+
+<form class="dedication__container">
+    <h2 class="dedication__title">Si querés dejarme algún mensajito...</h2>
+    <label class="dedication__name" for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>    
+    <label class="dedication__msg" for="dedicatoria">Dedicatoria:</label>
+    <textarea id="dedicatoria" name="dedicatoria" required></textarea>
+    
+    <input class="send__input" type="submit" value="Enviar">
+  </form>
+
+  <div class="dedication__icon-container">
+    <img class="dedication__icon" src="./regalos.png" alt="">
+  </div>
+
+
+  <!-- SECTION CONFIRMATION  -->
+
+  <form class="asist__container" id="formulario">
+    <h2 class="asist__title">Confirma tu asistencia</h2>
+    <div class="asist__icon-container">
+    <img class="asist__icon-mask" src="./globos.png" alt="">
+     </div>
+    <label class="asist__name" for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label class="asist_question" for="asistencia">¿Asistirás al evento?</label>
+    <select class="asist__option" id="asistencia" name="asistencia" required>
+      <option class="asist__option" value="">Selecciona una opción</option>
+      <option value="si">Sí, a darlo todo</option>
+      <option value="no">No, eliminame y bloqueame</option>
+    </select>
+    
+    <label class="asist__coments" for="comentarios">Comentarios:</label>
+    <textarea id="comentarios" name="comentarios"></textarea>
+    
+    <input class="send__input" type="submit" value="Enviar">
+  </form>
+
+  <!-- /*SECTION FOOTER */ -->
+
+  <div class="footer">
+      <div class="footer-title">Caalu <i class='bx bxs-heart'></i> - Cualquier cosa contactame en:</div>
+      <div class="footer-icons">
+        <a href="https://instagram.com/_caluramirez?igshid=YmMyMTA2M2Y=" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.facebook.com/CaaluR" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+        <a href="https://youtube.com/shorts/n7auh8rOz2c?feature=share" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+      </div>
+    </div>
+
+  
+  
