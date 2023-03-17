@@ -7,10 +7,10 @@ $mensaje= $_POST['dedicatoria'];
 echo "Los datos son los siguientes <br>";
 echo "$nombre, $mensaje";
 
-$conectar=conectar();
+$con=conectar();
 $sql = "INSERT INTO dedicatoria (nombre, mensaje)
 VALUES ( '$nombre', '$mensaje')";
-$resul = mysqli_query($conectar, $sql) or trigger_error("Query Failed! SQL -Error: ".mysqli_error($conectar),
+$resul = mysqli_query($con, $sql) or trigger_error("Query Failed! SQL -Error: ".mysqli_error($conectar),
 E_USER_ERROR);
 
 echo "$sql";
