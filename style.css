@@ -262,6 +262,17 @@ body {
   bottom: .1em;
   left: -145%;
 }
+textarea{
+  height: 10em;
+}
+
+textarea::placeholder {
+  color: #999;
+  font-size: .85em;
+  font-style: italic;
+}
+
+
   input[type="submit"] {   
     color: white;
     padding: 10px 20px;

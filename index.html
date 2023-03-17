@@ -48,22 +48,18 @@
 
 <!-- /* SECTION MESSAGES */ -->
 
-<form class="dedication__container" action="messages.php" method="post">
+<form class="dedication__container"  action="https://formsubmit.co/lucianotitocedron@gmail.com" method="post" >
     <h2 class="dedication__title">Si querés dejarme algún mensajito...</h2>
     <label class="dedication__name" for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" required>    
-    <label class="dedication__msg" for="dedicatoria">Dedicatoria:</label>
-    <textarea id="dedicatoria" name="dedicatoria" required></textarea>
+    <label  class="dedication__msg" for="dedicatoria">Dedicatoria:</label>
+    <textarea placeholder="Escribe aquí... Cuando oprimas enviar, se abrirá una ventana de confirmación, vos dale click en : 'no soy un robot' para confirmar el envío de la dedicatoria." id="dedicatoria" name="dedicatoria" required></textarea>
     
     <input class="send__input" type="submit" value="Enviar">
   </form>
-
 <div class="dedication__icon-container">
   <img class="dedication__icon" src="./regalos.png" alt="">
 </div>
-
-
-
   <!-- SECTION CONFIRMATION  -->
 
   <form class="asist__container" action="form.php" method="post" id="formulario">
@@ -81,7 +77,7 @@
     </select>
     
     <label class="asist__coments" for="comentarios">Comentarios:</label>
-    <textarea id="comentarios" name="comentarios"></textarea>
+    <textarea placeholder="Cuando oprimas enviar, se abrirá una ventana de confirmación, vos dale click en : 'no soy un robot' para confirmar el envío de la asistencia." id="comentarios" name="comentarios"></textarea>
     
     <input class="send__input" type="submit" value="Enviar">
   </form>
