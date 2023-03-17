@@ -13,21 +13,6 @@
     
 
     <title>Mí Cumple</title>
-    
-</head>
-<body>
-    
-    <header>
-        <!-- MENÚ ENCABEZADO -->
-        <nav>
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
-     
-
-    </header>
-    
 
     <!-- SECTION HOME -->
     <section class="home">
@@ -63,30 +48,32 @@
 
 <!-- /* SECTION MESSAGES */ -->
 
-<form class="dedication__container">
-    <h2 class="dedication__title">Si querés dejarme algún mensajito...</h2>
-    <label class="dedication__name" for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>    
-    <label class="dedication__msg" for="dedicatoria">Dedicatoria:</label>
-    <textarea id="dedicatoria" name="dedicatoria" required></textarea>
-    
-    <input class="send__input" type="submit" value="Enviar">
-  </form>
+<!-- SECTION MESSAGES -->
+<form name="form" action="messages.php" method="post" class="dedication__container">
+  <h2 class="dedication__title">Si querés dejarme algún mensajito...</h2>
+  <label class="dedication__name"  for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>    
+  <label class="dedication__msg" for="dedicatoria">Dedicatoria:</label>
+  <textarea id="dedicatoria" name="dedicatoria" required></textarea>
+  
+  <input class="send__input" type="submit" value="Enviar">
+</form>
 
-  <div class="dedication__icon-container">
-    <img class="dedication__icon" src="./regalos.png" alt="">
-  </div>
+<div class="dedication__icon-container">
+  <img class="dedication__icon" src="./regalos.png" alt="">
+</div>
+
 
 
   <!-- SECTION CONFIRMATION  -->
 
-  <form class="asist__container" id="formulario">
+  <form class="asist__container" action="form.php" method="post" id="formulario">
     <h2 class="asist__title">Confirma tu asistencia</h2>
     <div class="asist__icon-container">
     <img class="asist__icon-mask" src="./globos.png" alt="">
      </div>
     <label class="asist__name" for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
+    <input type="text" id="nombre" name="nombre__confirmation" required>
     <label class="asist_question" for="asistencia">¿Asistirás al evento?</label>
     <select class="asist__option" id="asistencia" name="asistencia" required>
       <option class="asist__option" value="">Selecciona una opción</option>
